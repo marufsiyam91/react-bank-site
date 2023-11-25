@@ -24,7 +24,7 @@ const App = () => {
 
   //getting widthdrawInput
   const getWidthdrawInput = (e) => {
-    if(isNaN(Number(event.target.value.trim()))) return alert("Please Enter a valid amount")
+    if(isNaN(Number(e.target.value.trim()))) return alert("Please Enter a valid amount")
       setWidthdrawInput(parseFloat(e.target.value))
       console.log(e.target.value)
 
